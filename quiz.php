@@ -1,0 +1,35 @@
+<?php include 'header.php'; ?>
+
+<div style="max-width: 600px; margin: 0 auto; text-align: center;">
+    <h2 style="color: #D4AF37; margin-bottom: 20px;">FRAGRANCE FINDER</h2>
+    <p style="color: #888; margin-bottom: 50px;">Beantwoord 3 vragen voor uw ideale match.</p>
+
+    <div class="quiz-step active" id="step1">
+        <h3 style="color: white; margin-bottom: 30px;">1. Gelegenheid?</h3>
+        <button class="btn-gold" style="width:100%; margin-bottom:15px; text-align:left;" onclick="nextStep(1, 'school')">🏢 Dagelijks / Werk</button>
+        <button class="btn-gold" style="width:100%; margin-bottom:15px; text-align:left;" onclick="nextStep(1, 'uitgaan')">🍸 Uitgaan / Club</button>
+        <button class="btn-gold" style="width:100%; margin-bottom:15px; text-align:left;" onclick="nextStep(1, 'date')">🌹 Date / Romantisch</button>
+        <button class="btn-gold" style="width:100%; margin-bottom:15px; text-align:left;" onclick="nextStep(1, 'niche')">💎 Niche / Uniek</button>
+    </div>
+
+    <div class="quiz-step" id="step2">
+        <h3 style="color: white; margin-bottom: 30px;">2. Budget?</h3>
+        <button class="btn-gold" style="width:100%; margin-bottom:15px; text-align:left;" onclick="nextStep(2, 'low')">💸 Instap (< €60)</button>
+        <button class="btn-gold" style="width:100%; margin-bottom:15px; text-align:left;" onclick="nextStep(2, 'high')">💰 Premium (> €90)</button>
+    </div>
+
+    <div class="quiz-step" id="step3">
+        <h3 style="color: white; margin-bottom: 30px;">3. Type geur?</h3>
+        <button class="btn-gold" style="width:100%; margin-bottom:15px; text-align:left;" onclick="nextStep(3, 'fris')">🍋 Fris & Citrus</button>
+        <button class="btn-gold" style="width:100%; margin-bottom:15px; text-align:left;" onclick="nextStep(3, 'zoet')">🪵 Warm & Kruidig</button>
+    </div>
+
+    <div class="quiz-step" id="result">
+        <h3 style="color: #D4AF37;">UW AANBEVELING</h3>
+        <div id="result-content" style="margin-top: 40px;"></div>
+        <button onclick="location.reload()" class="btn-gold" style="margin-top: 40px; border-color: #444; color: #888;">OPNIEUW</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<?php include 'footer.php'; ?>

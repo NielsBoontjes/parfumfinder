@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "merk": "Dior",
+        "naam": "Sauvage",
+        "type": "Eau de Toilette",
+        "categorie": "school",
+        "img": "https://media.douglas.nl/media/image/626435/300/Dior-Sauvage-Eau_de_Toilette.jpg",
+        "desc": "De absolute nummer 1. Fris, kruidig en extreem populair. Een veilige, maar krachtige keuze voor elke dag.",
+        "noten": "Bergamot, Peper, Ambroxan",
+        "shops": {
+            "Douglas": { "prijs": 78.50, "link": "https://www.douglas.nl/nl/p/3000037229" },
+            "ICI PARIS XL": { "prijs": 79.00, "link": "https://www.iciparisxl.nl/dior/sauvage/eau-de-toilette/p/BP_538741" },
+            "Notino": { "prijs": 85.00, "link": "https://www.notino.nl/dior/sauvage-eau-de-toilette-voor-mannen/" },
+            "Flaconi": { "prijs": 76.95, "link": "https://www.flaconi.nl/parfum/dior/sauvage/dior-sauvage-eau-de-toilette.html" }
+        }
+    },
+    {
+        "id": 2,
+        "merk": "Versace",
+        "naam": "Eros",
+        "type": "Eau de Toilette",
+        "categorie": "uitgaan",
+        "img": "https://media.douglas.nl/media/image/839446/300/Versace-Eros-Eau_de_Toilette.jpg",
+        "desc": "De koning van de club. Munt, groene appel en tonkaboon. Luid, zoet en ontworpen om op te vallen.",
+        "noten": "Munt, Appel, Vanille",
+        "shops": {
+            "Douglas": { "prijs": 62.00, "link": "https://www.douglas.nl/nl/p/3000037748" },
+            "ICI PARIS XL": { "prijs": 64.00, "link": "https://www.iciparisxl.nl/versace/eros/eau-de-toilette/p/BP_526435" },
+            "Notino": { "prijs": 55.90, "link": "https://www.notino.nl/versace/eros-eau-de-toilette-voor-mannen/" },
+            "Flaconi": { "prijs": 58.00, "link": "https://www.flaconi.nl/parfum/versace/eros/versace-eros-eau-de-toilette.html" }
+        }
+    },
+    {
+        "id": 3,
+        "merk": "Tom Ford",
+        "naam": "Oud Wood",
+        "type": "Eau de Parfum",
+        "categorie": "niche",
+        "img": "https://media.douglas.nl/media/image/625345/300/Tom_Ford-Private_Blend_Oud_Wood-Eau_de_Parfum.jpg",
+        "desc": "Pure luxe in een fles. Exotisch rozenhout en zeldzaam oudh hout. Zeer exclusief en verfijnd.",
+        "noten": "Oudh, Sandelhout, Vetiver",
+        "shops": {
+            "Douglas": { "prijs": 145.00, "link": "https://www.douglas.nl/nl/p/3000001880" },
+            "ICI PARIS XL": { "prijs": 150.00, "link": "https://www.iciparisxl.nl/tom-ford/oud-wood/eau-de-parfum/p/BP_1130612" },
+            "Notino": { "prijs": 165.00, "link": "https://www.notino.nl/tom-ford/oud-wood-eau-de-parfum-unisex/" },
+            "Flaconi": { "prijs": 140.00, "link": "https://www.flaconi.nl/parfum/tom-ford/oud-wood/tom-ford-oud-wood-eau-de-parfum.html" }
+        }
+    },
+    {
+        "id": 4,
+        "merk": "Jean Paul Gaultier",
+        "naam": "Le Male Elixir",
+        "type": "Parfum",
+        "categorie": "uitgaan",
+        "img": "https://media.douglas.nl/media/image/1077755/300/Jean_Paul_Gaultier-Le_Male_Elixir-Parfum.jpg",
+        "desc": "Goudkleurig, sensueel en verslavend. Een absolute hit met warme vanille en honing.",
+        "noten": "Tonkaboon, Lavendel, Benzoë",
+        "shops": {
+            "Douglas": { "prijs": 92.00, "link": "https://www.douglas.nl/nl/p/3001096530" },
+            "ICI PARIS XL": { "prijs": 94.00, "link": "https://www.iciparisxl.nl/jean-paul-gaultier/le-male-elixir/parfum/p/BP_1126136" },
+            "Notino": { "prijs": 105.00, "link": "https://www.notino.nl/jean-paul-gaultier/le-male-elixir-parfum-voor-mannen/" },
+            "Flaconi": null
+        }
+    },
+    {
+        "id": 5,
+        "merk": "Dolce & Gabbana",
+        "naam": "The One EDP",
+        "type": "Eau de Parfum",
+        "categorie": "date",
+        "img": "https://media.douglas.nl/media/image/625363/300/Dolce_Gabbana-The_One_for_Men-Eau_de_Parfum.jpg",
+        "desc": "De ultieme date geur. Warm, magnetisch en onvergetelijk. Blijft dicht op de huid, perfect voor intimiteit.",
+        "noten": "Tabak, Amber, Gember",
+        "shops": {
+            "Douglas": { "prijs": 75.00, "link": "https://www.douglas.nl/nl/p/3000037367" },
+            "ICI PARIS XL": { "prijs": 78.00, "link": "https://www.iciparisxl.nl/dolce-gabbana/the-one-for-men/eau-de-parfum/p/BP_538561" },
+            "Notino": { "prijs": 62.00, "link": "https://www.notino.nl/dolce-gabbana/the-one-for-men-eau-de-parfum-voor-mannen/" },
+            "Flaconi": null
+        }
+    },
+    {
+        "id": 6,
+        "merk": "Creed",
+        "naam": "Aventus",
+        "type": "Eau de Parfum",
+        "categorie": "niche",
+        "img": "https://media.douglas.nl/media/image/254422/300/Creed-Aventus-Eau_de_Parfum.jpg",
+        "desc": "De koning der niche parfums. Geïnspireerd door succes en kracht. Een statussymbool.",
+        "noten": "Ananas, Berk, Muskus",
+        "shops": {
+            "Douglas": { "prijs": 295.00, "link": "https://www.douglas.nl/nl/p/3001042732" },
+            "ICI PARIS XL": null,
+            "Notino": { "prijs": 285.00, "link": "https://www.notino.nl/creed/aventus-eau-de-parfum-voor-mannen/" },
+            "Flaconi": { "prijs": 310.00, "link": "https://www.flaconi.nl/parfum/creed/aventus/creed-aventus-eau-de-parfum.html" }
+        }
+    },
+    {
+        "id": 7,
+        "merk": "Prada",
+        "naam": "L'Homme",
+        "type": "Eau de Toilette",
+        "categorie": "school",
+        "img": "https://media.douglas.nl/media/image/302061/300/Prada-L_Homme_Prada-Eau_de_Toilette.jpg",
+        "desc": "De definitie van schoon. Ruikt naar luxe zeep en gestreken overhemden. Perfect voor kantoor.",
+        "noten": "Iris, Neroli, Amber",
+        "shops": {
+            "Douglas": { "prijs": 95.00, "link": "https://www.douglas.nl/nl/p/3000037580" },
+            "ICI PARIS XL": { "prijs": 98.00, "link": "https://www.iciparisxl.nl/prada/lhomme-prada/eau-de-toilette/p/BP_565432" },
+            "Notino": { "prijs": 82.00, "link": "https://www.notino.nl/prada/lhomme-prada-eau-de-toilette-voor-mannen/" },
+            "Flaconi": { "prijs": 85.00, "link": "https://www.flaconi.nl/parfum/prada/lhomme/prada-lhomme-eau-de-toilette.html" }
+        }
+    },
+    {
+        "id": 8,
+        "merk": "Viktor & Rolf",
+        "naam": "Spicebomb Extreme",
+        "type": "Eau de Parfum",
+        "categorie": "uitgaan",
+        "img": "https://media.douglas.nl/media/image/783857/300/Viktor_Rolf-Spicebomb_Extreme-Eau_de_Parfum.jpg",
+        "desc": "Een handgranaat van kruiden. Zeer warm, peperig en perfect voor de koude winterdagen.",
+        "noten": "Tabak, Zwarte Peper, Vanille",
+        "shops": {
+            "Douglas": { "prijs": 98.00, "link": "https://www.douglas.nl/nl/p/3000037775" },
+            "ICI PARIS XL": { "prijs": 99.00, "link": "https://www.iciparisxl.nl/viktor-rolf/spicebomb-extreme/eau-de-parfum/p/BP_538743" },
+            "Notino": { "prijs": 92.00, "link": "https://www.notino.nl/viktor-rolf/spicebomb-extreme-eau-de-parfum-voor-mannen/" },
+            "Flaconi": { "prijs": 89.00, "link": "https://www.flaconi.nl/parfum/viktor-rolf/spicebomb/viktor-rolf-spicebomb-extreme-eau-de-parfum.html" }
+        }
+    },
+    {
+        "id": 9,
+        "merk": "Montblanc",
+        "naam": "Explorer",
+        "type": "Eau de Parfum",
+        "categorie": "school",
+        "img": "https://cdn.notinoimg.com/detail_main_mq/montblanc/3386460101035_01-o__5.jpg",
+        "desc": "Avontuurlijk en mannelijk. Een geweldig, betaalbaar alternatief voor de veel duurdere Aventus.",
+        "noten": "Bergamot, Vetiver, Patchouli",
+        "shops": {
+            "Douglas": { "prijs": 55.00, "link": "https://www.douglas.nl/nl/p/3001055535" },
+            "ICI PARIS XL": { "prijs": 58.00, "link": "https://www.iciparisxl.nl/montblanc/explorer/eau-de-parfum/p/BP_1044673" },
+            "Notino": { "prijs": 45.00, "link": "https://www.notino.nl/montblanc/explorer-eau-de-parfum-voor-mannen/" },
+            "Flaconi": { "prijs": 48.00, "link": "https://www.flaconi.nl/parfum/montblanc/explorer/montblanc-explorer-eau-de-parfum.html" }
+        }
+    },
+    {
+        "id": 10,
+        "merk": "Yves Saint Laurent",
+        "naam": "La Nuit de L'Homme",
+        "type": "Eau de Toilette",
+        "categorie": "date",
+        "img": "https://www.iciparisxl.nl/medias/sys_master/images/h82/h75/8863640289310/Yves-Saint-Laurent-La-Nuit-de-l-Homme-Eau-de-Toilette-Spray-100-ml-3365440367338-Product-Image-525Wx525H/Yves-Saint-Laurent-La-Nuit-de-l-Homme-Eau-de-Toilette-Spray-100-ml-3365440367338-Product-Image-525Wx525H.jpg",
+        "desc": "Mysterieus en verleidelijk. De ultieme geur om een vrouw te verleiden. Zacht en kruidig.",
+        "noten": "Kardemom, Ceder, Vetiver",
+        "shops": {
+            "Douglas": { "prijs": 79.00, "link": "https://www.douglas.nl/nl/p/3000037145" },
+            "ICI PARIS XL": { "prijs": 81.00, "link": "https://www.iciparisxl.nl/yves-saint-laurent/la-nuit-de-lhomme/eau-de-toilette/p/BP_512961" },
+            "Notino": { "prijs": 75.00, "link": "https://www.notino.nl/yves-saint-laurent/la-nuit-de-lhomme-eau-de-toilette-voor-mannen/" },
+            "Flaconi": null
+        }
+    },
+    {
+        "id": 11,
+        "merk": "Maison Margiela",
+        "naam": "Jazz Club",
+        "type": "Eau de Toilette",
+        "categorie": "niche",
+        "img": "https://media.douglas.nl/media/image/487823/300/Maison_Margiela-REPLICA_Jazz_Club-Eau_de_Toilette.jpg",
+        "desc": "Sfeer van een oude jazz club in Brooklyn. Lederen stoelen, sigarenrook en rum.",
+        "noten": "Rum, Tabak, Roze Peper",
+        "shops": {
+            "Douglas": { "prijs": 115.00, "link": "https://www.douglas.nl/nl/p/3001053151" },
+            "ICI PARIS XL": { "prijs": 120.00, "link": "https://www.iciparisxl.nl/maison-margiela/replica-jazz-club/eau-de-toilette/p/BP_1127025" },
+            "Notino": { "prijs": 105.00, "link": "https://www.notino.nl/maison-margiela/replica-jazz-club-eau-de-toilette-voor-mannen/" },
+            "Flaconi": null
+        }
+    },
+    {
+        "id": 12,
+        "merk": "Armani",
+        "naam": "Acqua di Gio",
+        "type": "Eau de Toilette",
+        "categorie": "school",
+        "img": "https://media.douglas.nl/media/image/966455/300/Giorgio_Armani-Acqua_di_Gi%C3%B2_Pour_Homme-Eau_de_Toilette.jpg",
+        "desc": "De best verkochte mannengeur aller tijden. Fris, zeewater en citrus. Kan altijd.",
+        "noten": "Zeenoten, Limoen, Jasmijn",
+        "shops": {
+            "Douglas": { "prijs": 65.00, "link": "https://www.douglas.nl/nl/p/1000700021" },
+            "ICI PARIS XL": { "prijs": 67.00, "link": "https://www.iciparisxl.nl/giorgio-armani/acqua-di-gio-homme/eau-de-toilette/p/BP_1793" },
+            "Notino": { "prijs": 59.00, "link": "https://www.notino.nl/armani/acqua-di-gio-pour-homme-eau-de-toilette-voor-mannen/" },
+            "Flaconi": { "prijs": 62.00, "link": "https://www.flaconi.nl/parfum/giorgio-armani/acqua-di-gio/giorgio-armani-acqua-di-gio-pour-homme-eau-de-toilette.html" }
+        }
+    },
+    {
+        "id": 13,
+        "merk": "Azzaro",
+        "naam": "The Most Wanted",
+        "type": "Parfum",
+        "categorie": "uitgaan",
+        "img": "https://media.douglas.nl/media/image/675549/300/Azzaro-The_Most_Wanted-Eau_de_Parfum_Intense.jpg",
+        "desc": "Voor de man die alles krijgt. Verslavend zoet, kruidig en zeer verleidelijk.",
+        "noten": "Toffee, Kardemom, Amberhout",
+        "shops": {
+            "Douglas": { "prijs": 75.00, "link": "https://www.douglas.nl/nl/p/3001072935" },
+            "ICI PARIS XL": { "prijs": 77.00, "link": "https://www.iciparisxl.nl/azzaro/the-most-wanted/eau-de-parfum-intense/p/BP_1091565" },
+            "Notino": { "prijs": 68.00, "link": "https://www.notino.nl/azzaro/the-most-wanted-eau-de-parfum-intense-voor-mannen/" },
+            "Flaconi": { "prijs": 70.00, "link": "https://www.flaconi.nl/parfum/azzaro/the-most-wanted/azzaro-the-most-wanted-parfum.html" }
+        }
+    },
+    {
+        "id": 14,
+        "merk": "Paco Rabanne",
+        "naam": "1 Million",
+        "type": "Eau de Toilette",
+        "categorie": "uitgaan",
+        "img": "https://media.douglas.nl/media/image/694931/300/Paco_Rabanne-1_Million-Eau_de_Toilette.jpg",
+        "desc": "De gouden staaf. Iedereen kent hem, iedereen herkent hem. Zoet leder en kruiden.",
+        "noten": "Bloedmandarijn, Kaneel, Leder",
+        "shops": {
+            "Douglas": { "prijs": 70.00, "link": "https://www.douglas.nl/nl/p/3000037466" },
+            "ICI PARIS XL": { "prijs": 72.00, "link": "https://www.iciparisxl.nl/paco-rabanne/1-million/eau-de-toilette/p/BP_569265" },
+            "Notino": { "prijs": 65.00, "link": "https://www.notino.nl/paco-rabanne/1-million-eau-de-toilette-voor-mannen/" },
+            "Flaconi": { "prijs": 68.00, "link": "https://www.flaconi.nl/parfum/paco-rabanne/1-million/paco-rabanne-1-million-eau-de-toilette.html" }
+        }
+    },
+    {
+        "id": 15,
+        "merk": "Joop!",
+        "naam": "Homme",
+        "type": "Eau de Toilette",
+        "categorie": "uitgaan",
+        "img": "https://media.douglas.nl/media/image/148769/300/JOOP-Homme-Eau_de_Toilette.jpg",
+        "desc": "De klassieke 'beast mode' geur. Roze fles, maar extreem sterk en mannelijk.",
+        "noten": "Kaneel, Vanille, Sandelhout",
+        "shops": {
+            "Douglas": { "prijs": 28.00, "link": "https://www.douglas.nl/nl/p/1000700171" },
+            "ICI PARIS XL": { "prijs": 30.00, "link": "https://www.iciparisxl.nl/joop/homme/eau-de-toilette/p/BP_1817" },
+            "Notino": { "prijs": 22.00, "link": "https://www.notino.nl/joop/homme-eau-de-toilette-voor-mannen/" },
+            "Flaconi": { "prijs": 25.00, "link": "https://www.flaconi.nl/parfum/joop/homme/joop-homme-eau-de-toilette.html" }
+        }
+    }
+]

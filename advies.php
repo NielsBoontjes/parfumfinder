@@ -1,0 +1,47 @@
+<?php 
+include 'header.php'; 
+include 'functions.php'; 
+$producten = getProducten();
+
+$cats = ['niche' => [], 'school' => [], 'uitgaan' => [], 'date' => []];
+foreach($producten as $p) {
+    if(isset($cats[$p['categorie']])) $cats[$p['categorie']][] = $p;
+}
+
+function printSectie($titel, $items) {
+    if(empty($items)) return;
+    echo "<div style='margin-bottom: 100px;'>";
+    echo "<h2 style='text-align:center; color:#D4AF37; margin-bottom:50px;'>$titel</h2>";
+    echo "<div class='grid'>";
+    foreach($items as $p) {
+        echo "
+        <div class='card'>
+            <a href='detail.php?id={$p['id']}'>
+                <div class='card-img-container'>
+                    <img src='{$p['img']}' alt='{$p['naam']}'>
+                </div>
+            </a>
+            <div class='card-content'>
+                <span class='brand'>{$p['merk']}</span>
+                <h4>{$p['naam']}</h4>
+                <a href='detail.php?id={$p['id']}' class='btn-gold' style='margin-top:auto;'>DETAILS</a>
+            </div>
+        </div>";
+    }
+    echo "</div></div>";
+}
+?>
+
+<div style="text-align: center; margin-bottom: 80px;">
+    <h1>Curated Selections</h1>
+    <p style="color: #666;">Onze favorieten per categorie.</p>
+</div>
+
+<?php 
+printSectie('💎 Niche & Luxury', $cats['niche']);
+printSectie('🍸 Club & Nightlife', $cats['uitgaan']);
+printSectie('🌹 Date & Intiem', $cats['date']);
+printSectie('🏢 Office & Daily', $cats['school']);
+
+include 'footer.php'; 
+?>

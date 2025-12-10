@@ -1,0 +1,32 @@
+<?php
+function getLivePrijs($url) {
+    // We moeten doen alsof we een echte browser zijn (User Agent spoofing)
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
+    
+    $html = curl_exec($ch);
+    curl_close($ch);
+
+    if (!$html) return "Blokkade";
+
+    // Voorbeeld voor Notino (dit verandert constant als zij hun site updaten)
+    // We zoeken naar een stukje HTML waar de prijs in staat
+    // Let op: Dit is fragiel! Als Notino 1 dingetje aanpast, is je site stuk.
+    
+    // Simpele Regex om een prijs te vinden (werkt niet altijd)
+    preg_match('/content="([0-9]+\.[0-9]+)"/', $html, $matches);
+    
+    if (isset($matches[1])) {
+        return "€ " . $matches[1];
+    } else {
+        return "Niet gevonden (Beveiligd)";
+    }
+}
+
+// Testen met een URL
+echo "Live prijs ophalen...<br>";
+echo getLivePrijs("https://www.notino.nl/dior/sauvage-eau-de-toilette-voor-mannen/");
+?>

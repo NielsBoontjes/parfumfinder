@@ -1,0 +1,10 @@
+</div>
+    <footer>
+        <h3 style="color: #D4AF37; margin-bottom: 20px;">SCENTFINDER</h3>
+        <p>&copy; <?php echo date("Y"); ?>. The Luxury Fragrance Guide.</p>
+        <p style="color: #666; font-size: 0.7rem; margin-top: 10px;">
+            Onafhankelijk advies. Wij tonen enkel officiële retailers.
+        </p>
+    </footer>
+</body>
+</html>

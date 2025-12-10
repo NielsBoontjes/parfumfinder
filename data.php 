@@ -1,0 +1,85 @@
+<?php
+// data.php
+// Bevat de "database" van geuren met online afbeeldingslinks.
+
+$geuren = [
+    'school' => [
+        [
+            'merk' => 'Nautica',
+            'naam' => 'Voyage',
+            'prijs_cat' => '€',
+            'desc' => 'Super fris, ruikt naar zee en komkommer. De beste goedkope keuze.',
+            'img' => 'https://media.s-bol.com/B1Aj1gYyRjJ/550x507.jpg', 
+            'link' => 'https://www.bol.com/nl/nl/p/nautica-voyage-100-ml-eau-de-toilette-herenparfum/9200000026364024/'
+        ],
+        [
+            'merk' => 'Versace',
+            'naam' => 'Pour Homme',
+            'prijs_cat' => '€€',
+            'desc' => 'Schoon, citrus en professioneel. Een echte complimentenpakker.',
+            'img' => 'https://media.douglas.nl/media/image/570979/300/Versace-Versace_Pour_Homme-Eau_de_Toilette.jpg',
+            'link' => 'https://www.douglas.nl/nl/p/3000037684'
+        ],
+        [
+            'merk' => 'Montblanc',
+            'naam' => 'Explorer',
+            'prijs_cat' => '€€',
+            'desc' => 'Mannelijk en modern. Ruikt heel duur voor de prijs.',
+            'img' => 'https://cdn.notinoimg.com/detail_main_mq/montblanc/3386460101035_01-o__5.jpg',
+            'link' => 'https://www.notino.nl/montblanc/explorer-eau-de-parfum-voor-mannen/'
+        ]
+    ],
+    'uitgaan' => [
+        [
+            'merk' => 'Versace',
+            'naam' => 'Eros',
+            'prijs_cat' => '€€',
+            'desc' => 'De koning van de club. Munt, vanille en blijft lang hangen.',
+            'img' => 'https://media.douglas.nl/media/image/839446/300/Versace-Eros-Eau_de_Toilette.jpg',
+            'link' => 'https://www.douglas.nl/nl/p/3000037748'
+        ],
+        [
+            'merk' => 'Jean Paul Gaultier',
+            'naam' => 'Ultra Male',
+            'prijs_cat' => '€€€',
+            'desc' => 'Zoet, peer en bubblegum vibe. Meisjes vinden deze geweldig.',
+            'img' => 'https://www.iciparisxl.nl/medias/sys_master/images/h31/h34/9696349454366/Jean-Paul-Gaultier-Ultra-Male-Eau-de-Toilette-Intense-Spray-125-ml-8435415012027-Product-Image-525Wx525H/Jean-Paul-Gaultier-Ultra-Male-Eau-de-Toilette-Intense-Spray-125-ml-8435415012027-Product-Image-525Wx525H.jpg',
+            'link' => 'https://www.iciparisxl.nl/jean-paul-gaultier/ultra-male/eau-de-toilette-intense'
+        ],
+        [
+            'merk' => 'Afnan',
+            'naam' => '9pm',
+            'prijs_cat' => '€',
+            'desc' => 'Geweldige budget clone van Ultra Male. Sterk en zoet.',
+            'img' => 'https://cdn.notinoimg.com/detail_main_mq/afnan/6290171002345_01-o.jpg',
+            'link' => 'https://www.notino.nl/afnan/9-pm-eau-de-parfum-voor-mannen/'
+        ]
+    ],
+    'date' => [
+        [
+            'merk' => 'Dolce & Gabbana',
+            'naam' => 'The One EDP',
+            'prijs_cat' => '€€€',
+            'desc' => 'De beste date geur. Tabak, gember en amber. Heel sexy.',
+            'img' => 'https://media.douglas.nl/media/image/625363/300/Dolce_Gabbana-The_One_for_Men-Eau_de_Parfum.jpg',
+            'link' => 'https://www.douglas.nl/nl/p/3000037367'
+        ],
+        [
+            'merk' => 'YSL',
+            'naam' => 'La Nuit de L\'Homme',
+            'prijs_cat' => '€€€',
+            'desc' => 'Mysterieus en verleidelijk. De ultieme verleidingsgeur.',
+            'img' => 'https://www.iciparisxl.nl/medias/sys_master/images/h82/h75/8863640289310/Yves-Saint-Laurent-La-Nuit-de-l-Homme-Eau-de-Toilette-Spray-100-ml-3365440367338-Product-Image-525Wx525H/Yves-Saint-Laurent-La-Nuit-de-l-Homme-Eau-de-Toilette-Spray-100-ml-3365440367338-Product-Image-525Wx525H.jpg',
+            'link' => 'https://www.iciparisxl.nl/yves-saint-laurent/la-nuit-de-lhomme'
+        ],
+        [
+            'merk' => 'Halloween',
+            'naam' => 'Man X',
+            'prijs_cat' => '€',
+            'desc' => 'Ruikt naar koffie en whiskey. Uniek en zeer betaalbaar.',
+            'img' => 'https://cdn.notinoimg.com/detail_main_mq/halloween/8431754006124_01-o.jpg',
+            'link' => 'https://www.notino.nl/halloween/man-x-eau-de-toilette-voor-mannen/'
+        ]
+    ]
+];
+?>
